@@ -1,0 +1,145 @@
+{
+  "configVersion": 1,
+  "timestamp": 1773227226673,
+  "index": "/Portfolio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Portfolio/chunk-2NNAJRAH.js",
+        "/Portfolio/chunk-3472AI52.js",
+        "/Portfolio/chunk-4A67BKMJ.js",
+        "/Portfolio/chunk-4PVBRFIS.js",
+        "/Portfolio/chunk-533TEETY.js",
+        "/Portfolio/chunk-5EUKB7WB.js",
+        "/Portfolio/chunk-5FTE5DN3.js",
+        "/Portfolio/chunk-5KLWBKSK.js",
+        "/Portfolio/chunk-6MLDJGHR.js",
+        "/Portfolio/chunk-BLA5JMJB.js",
+        "/Portfolio/chunk-BPW37R7C.js",
+        "/Portfolio/chunk-CYIZKSED.js",
+        "/Portfolio/chunk-DKFAOJS2.js",
+        "/Portfolio/chunk-EEQT6XTH.js",
+        "/Portfolio/chunk-F2X3VGZZ.js",
+        "/Portfolio/chunk-F7GWML64.js",
+        "/Portfolio/chunk-GGQ7LRWG.js",
+        "/Portfolio/chunk-HBH7VMSP.js",
+        "/Portfolio/chunk-HRMFGPJK.js",
+        "/Portfolio/chunk-KNXQFZP3.js",
+        "/Portfolio/chunk-KSP5KA5K.js",
+        "/Portfolio/chunk-KZ27YNAW.js",
+        "/Portfolio/chunk-NX77DSX7.js",
+        "/Portfolio/chunk-NZUODPOI.js",
+        "/Portfolio/chunk-SFT2U5JN.js",
+        "/Portfolio/chunk-T7LZDFSW.js",
+        "/Portfolio/chunk-TM6MXRQ6.js",
+        "/Portfolio/chunk-VBYMSYAH.js",
+        "/Portfolio/chunk-WMTCV4XT.js",
+        "/Portfolio/chunk-WPI5NZTO.js",
+        "/Portfolio/chunk-WQKS5WGG.js",
+        "/Portfolio/chunk-WRB2HPTG.js",
+        "/Portfolio/chunk-XF345PPZ.js",
+        "/Portfolio/index.html",
+        "/Portfolio/main-ZS62T7Z2.js",
+        "/Portfolio/manifest.webmanifest",
+        "/Portfolio/polyfills-B6TNHZQ6.js",
+        "/Portfolio/styles-V5GZZUZQ.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Portfolio/assets/icons/icon-128x128.png",
+        "/Portfolio/assets/icons/icon-144x144.png",
+        "/Portfolio/assets/icons/icon-152x152.png",
+        "/Portfolio/assets/icons/icon-192x192.png",
+        "/Portfolio/assets/icons/icon-384x384.png",
+        "/Portfolio/assets/icons/icon-512x512.png",
+        "/Portfolio/assets/icons/icon-72x72.png",
+        "/Portfolio/assets/icons/icon-96x96.png",
+        "/Portfolio/assets/icons/icon.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Portfolio/assets/icons/icon-128x128.png": "015a2d03dee6d77508e678c9ceb34f143ca7013a",
+    "/Portfolio/assets/icons/icon-144x144.png": "8134af015d02493cbaa6045919ce2e566e7dddef",
+    "/Portfolio/assets/icons/icon-152x152.png": "593c06ee3bdfa60a7f5fc846a852be3aa8b82985",
+    "/Portfolio/assets/icons/icon-192x192.png": "64fce096df6c816cab1f32d7bf6a030398444a46",
+    "/Portfolio/assets/icons/icon-384x384.png": "52bbb027651d92ec0553adcfaa36accb6dbb35ff",
+    "/Portfolio/assets/icons/icon-512x512.png": "8c20dbe14b7e0776c3a16d697cd0b36af8fc0bc7",
+    "/Portfolio/assets/icons/icon-72x72.png": "851c0d127ad6b152817a871ccdd86cd3b5c3c417",
+    "/Portfolio/assets/icons/icon-96x96.png": "9fe62da562d82871ef4889c1c345ea52465a1c97",
+    "/Portfolio/assets/icons/icon.svg": "f97abc839113536abe2b3c380aa1f8cc7d521ef6",
+    "/Portfolio/chunk-2NNAJRAH.js": "1d4c3bf03956ec5b6a32f210e0efcff2a7f5d710",
+    "/Portfolio/chunk-3472AI52.js": "a279b09ae0b72609305a18fd793b1cdc40a5d98c",
+    "/Portfolio/chunk-4A67BKMJ.js": "0adf974fa1cb54f84c17ccb9e4569133a9613743",
+    "/Portfolio/chunk-4PVBRFIS.js": "8e5252951b66480660c6ae1e350a58697d91ebd7",
+    "/Portfolio/chunk-533TEETY.js": "2a8753d0669120fcde6c0ca05a55a5e7f95ab972",
+    "/Portfolio/chunk-5EUKB7WB.js": "3cd0ceefe07d7a395909c29eb4f17c7ba3b6c76a",
+    "/Portfolio/chunk-5FTE5DN3.js": "8b3ff4fdc9153754ed0c4567982037bb53d19018",
+    "/Portfolio/chunk-5KLWBKSK.js": "c85cafd731cb858df5956acb74ef65ca2d594392",
+    "/Portfolio/chunk-6MLDJGHR.js": "b3d75310bd8fe1a791e0f8a6c0380d361014100d",
+    "/Portfolio/chunk-BLA5JMJB.js": "d2667007e4f5971fdd2c43a58198b7df3da4a148",
+    "/Portfolio/chunk-BPW37R7C.js": "86087b792637c2464e26509a6fa1232c394aca6c",
+    "/Portfolio/chunk-CYIZKSED.js": "2d20626be7adcf43a3d7afe273d68b323d2be6cf",
+    "/Portfolio/chunk-DKFAOJS2.js": "a5787ed534c0dcbfa064a2eacddc9376ce7fea8d",
+    "/Portfolio/chunk-EEQT6XTH.js": "0eac02a86487e1b9145339758bcab6ea39a597b0",
+    "/Portfolio/chunk-F2X3VGZZ.js": "c579a1df6717c4fc81e69fe0110fd73b6d84889b",
+    "/Portfolio/chunk-F7GWML64.js": "a94a242ef339b110820fb6fa9f1cd259cff4b3f1",
+    "/Portfolio/chunk-GGQ7LRWG.js": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/Portfolio/chunk-HBH7VMSP.js": "0a6536a4d9c91ca4a703d8e22659761583ce5846",
+    "/Portfolio/chunk-HRMFGPJK.js": "add12a829f93b1dab921d7e80517dd94e99f4925",
+    "/Portfolio/chunk-KNXQFZP3.js": "8ab6c790c9e4ab2b8c3aafdedb32ff647843bc8f",
+    "/Portfolio/chunk-KSP5KA5K.js": "744bd925c00407e6a386fce752c01c60f0c93bb5",
+    "/Portfolio/chunk-KZ27YNAW.js": "80867c6250eb7e24d35f9ec2bbc45846e8b79f9a",
+    "/Portfolio/chunk-NX77DSX7.js": "496cbf6731a2399bb57f516afaeeefd3f8db47cf",
+    "/Portfolio/chunk-NZUODPOI.js": "b7741ce6cdb18f18dd92afa77cd4df8798685680",
+    "/Portfolio/chunk-SFT2U5JN.js": "dcf5e1c1ebd31da7f97a8cd133a2dae407a82627",
+    "/Portfolio/chunk-T7LZDFSW.js": "7365af48f6cfb2647c2ab1c7158a67dd71d34875",
+    "/Portfolio/chunk-TM6MXRQ6.js": "7a7b9618a47adb914a7314ef35567e513221eb92",
+    "/Portfolio/chunk-VBYMSYAH.js": "43b9de71a70a145072de1a8aaec1d924c26230b0",
+    "/Portfolio/chunk-WMTCV4XT.js": "33a6646685d1df672ea69ec65fdd28a708ab0715",
+    "/Portfolio/chunk-WPI5NZTO.js": "a0af5f206f37f8cb0be89eac5a2467c051203f19",
+    "/Portfolio/chunk-WQKS5WGG.js": "7f20ead8afdff4d883523c60a1447509668032ed",
+    "/Portfolio/chunk-WRB2HPTG.js": "1f6efae8a5efb087d169a3640d1f1deccaaa6078",
+    "/Portfolio/chunk-XF345PPZ.js": "5cecf9338f5e46c951b7db4069b0dd3d4c2e3e40",
+    "/Portfolio/index.html": "08d4a79c96687f50b0dbd22c835b5c52fec7a3c8",
+    "/Portfolio/main-ZS62T7Z2.js": "3071cecdb206765de59bd1ac9c8774107417796d",
+    "/Portfolio/manifest.webmanifest": "5dd31307d252163878c1ffb9e9f1354dfe992f13",
+    "/Portfolio/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
+    "/Portfolio/styles-V5GZZUZQ.css": "51d25619fa15a6459f25b8b4c964973cd8c8edb9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
