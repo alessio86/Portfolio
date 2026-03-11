@@ -21,7 +21,7 @@ import { ToastModule } from 'primeng/toast';
 import { RippleModule } from 'primeng/ripple';
 import { TooltipModule } from 'primeng/tooltip';
 import { ChipsModule } from 'primeng/chips';
-import { InputTextareaModule } from 'primeng/inputtextarea';
+import { InputTextarea } from 'primeng/inputtextarea';
 import { InputSwitchModule } from 'primeng/inputswitch';
 
 @Component({
@@ -31,7 +31,7 @@ import { InputSwitchModule } from 'primeng/inputswitch';
     CommonModule, ReactiveFormsModule, EuroCurrencyPipe,
     TableModule, ButtonModule, DialogModule, InputTextModule, InputNumberModule,
     DropdownModule, CalendarModule, TagModule, ConfirmDialogModule, ToastModule,
-    RippleModule, TooltipModule, ChipsModule, InputTextareaModule, InputSwitchModule
+    RippleModule, TooltipModule, ChipsModule, InputTextarea, InputSwitchModule
   ],
   providers: [ConfirmationService, MessageService],
   changeDetection: ChangeDetectionStrategy.OnPush,

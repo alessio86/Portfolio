@@ -1,5 +1,6 @@
 import { Component, inject, OnInit, signal, ChangeDetectionStrategy } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { AuthStore } from '@data/store';
 import { ExpenseRepository, RecurringRepository } from '@data/repositories';
 import { EuroCurrencyPipe } from '@shared/pipes/euro-currency.pipe';
@@ -21,7 +22,7 @@ interface CalendarEvent {
 @Component({
   selector: 'app-calendar',
   standalone: true,
-  imports: [CommonModule, EuroCurrencyPipe, CalendarModule, ButtonModule, TagModule, RippleModule],
+  imports: [CommonModule, FormsModule, EuroCurrencyPipe, CalendarModule, ButtonModule, TagModule, RippleModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="ft-page ft-animate-in">

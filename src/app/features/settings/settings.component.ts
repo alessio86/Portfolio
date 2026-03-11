@@ -1,6 +1,6 @@
 import { Component, inject, OnInit, signal, ChangeDetectionStrategy } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReactiveFormsModule, FormBuilder, Validators } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule, FormBuilder, Validators } from '@angular/forms';
 import { AuthStore } from '@data/store';
 import { AuthService } from '@core/auth/auth.service';
 import { Category, DEFAULT_CATEGORIES } from '@data/models';
@@ -19,7 +19,7 @@ import { DividerModule } from 'primeng/divider';
   selector: 'app-settings',
   standalone: true,
   imports: [
-    CommonModule, ReactiveFormsModule,
+    CommonModule, ReactiveFormsModule, FormsModule,
     InputTextModule, InputSwitchModule, ButtonModule, PasswordModule,
     DialogModule, ColorPickerModule, ToastModule, RippleModule, DividerModule
   ],

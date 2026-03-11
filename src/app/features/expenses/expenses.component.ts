@@ -13,7 +13,7 @@ import { InputNumberModule } from 'primeng/inputnumber';
 import { DropdownModule } from 'primeng/dropdown';
 import { CalendarModule } from 'primeng/calendar';
 import { ChipsModule } from 'primeng/chips';
-import { InputTextareaModule } from 'primeng/inputtextarea';
+import { InputTextarea } from 'primeng/inputtextarea';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ConfirmationService, MessageService } from 'primeng/api';
 import { ToastModule } from 'primeng/toast';
@@ -26,7 +26,7 @@ import { AccordionModule } from 'primeng/accordion';
   imports: [
     CommonModule, ReactiveFormsModule, EuroCurrencyPipe,
     ButtonModule, DialogModule, InputTextModule, InputNumberModule,
-    DropdownModule, CalendarModule, ChipsModule, InputTextareaModule,
+    DropdownModule, CalendarModule, ChipsModule, InputTextarea,
     ConfirmDialogModule, ToastModule, RippleModule, AccordionModule
   ],
   providers: [ConfirmationService, MessageService],

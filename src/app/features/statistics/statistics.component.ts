@@ -1,5 +1,6 @@
 import { Component, inject, OnInit, signal, ChangeDetectionStrategy } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { AuthStore } from '@data/store';
 import { ExpenseRepository, RecurringRepository } from '@data/repositories';
 import { EuroCurrencyPipe } from '@shared/pipes/euro-currency.pipe';
@@ -11,7 +12,7 @@ import { ButtonModule } from 'primeng/button';
 @Component({
   selector: 'app-statistics',
   standalone: true,
-  imports: [CommonModule, EuroCurrencyPipe, ChartModule, DropdownModule, ButtonModule],
+  imports: [CommonModule, FormsModule, EuroCurrencyPipe, ChartModule, DropdownModule, ButtonModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="ft-page ft-animate-in">
