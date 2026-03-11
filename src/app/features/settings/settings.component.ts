@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormsModule, FormBuilder, Validators } from '@angular/forms';
 import { AuthStore } from '@data/store';
 import { AuthService } from '@core/auth/auth.service';
+import { PwaService } from '@core/services/pwa.service';
 import { Category, DEFAULT_CATEGORIES } from '@data/models';
 import { InputTextModule } from 'primeng/inputtext';
 import { InputSwitchModule } from 'primeng/inputswitch';
@@ -28,6 +29,32 @@ import { DividerModule } from 'primeng/divider';
   template: `
     <div class="ft-page ft-animate-in">
       <h1 class="ft-page-title" style="margin-bottom: 1.5rem;">Impostazioni</h1>
+
+      <!-- Install App -->
+      @if (pwa.canInstall() || pwa.isInstalled()) {
+        <div class="settings-section">
+          <h3><i class="pi pi-mobile"></i> App Mobile</h3>
+          @if (pwa.isInstalled()) {
+            <div class="install-status installed">
+              <i class="pi pi-check-circle"></i>
+              <div>
+                <span class="setting-label">App installata</span>
+                <span class="setting-desc">FinanceTracker è già installata sul tuo dispositivo</span>
+              </div>
+            </div>
+          } @else {
+            <div class="install-status">
+              <img src="assets/icons/icon-96x96.png" width="56" height="56" alt="FinanceTracker icon" class="app-icon" />
+              <div class="install-info">
+                <span class="setting-label">Installa FinanceTracker</span>
+                <span class="setting-desc">Accesso rapido, funziona offline, nessun browser</span>
+              </div>
+            </div>
+            <button pButton pRipple label="Installa sul dispositivo" icon="pi pi-download"
+                    class="p-button-sm install-btn" (click)="installApp()"></button>
+          }
+        </div>
+      }
 
       <!-- Profile -->
       <div class="settings-section">
@@ -219,6 +246,20 @@ import { DividerModule } from 'primeng/divider';
       font-size: 0.875rem; color: var(--ft-text-secondary);
     }
     .w-full { width: 100%; }
+
+    .install-status {
+      display: flex; align-items: center; gap: 1rem;
+      padding: 0.75rem 0; margin-bottom: 1rem;
+    }
+
+    .install-status.installed { color: var(--ft-success, #22c55e); }
+    .install-status.installed i { font-size: 2rem; }
+
+    .app-icon { border-radius: 16px; box-shadow: var(--ft-shadow); }
+
+    .install-info { display: flex; flex-direction: column; }
+
+    .install-btn { width: 100%; justify-content: center; }
   `]
 })
 export class SettingsComponent implements OnInit {
@@ -226,6 +267,7 @@ export class SettingsComponent implements OnInit {
   private authService = inject(AuthService);
   private fb = inject(FormBuilder);
   private messageService = inject(MessageService);
+  pwa = inject(PwaService);
 
   showCatDialog = signal(false);
   notifEnabled = signal(true);
@@ -309,6 +351,13 @@ export class SettingsComponent implements OnInit {
       this.messageService.add({ severity: 'success', summary: 'Aggiornata', detail: 'Password cambiata' });
     } else {
       this.messageService.add({ severity: 'error', summary: 'Errore', detail: result.error || 'Errore' });
+    }
+  }
+
+  async installApp(): Promise<void> {
+    const accepted = await this.pwa.promptInstall();
+    if (accepted) {
+      this.messageService.add({ severity: 'success', summary: 'Installato!', detail: 'App aggiunta al dispositivo' });
     }
   }
 }
